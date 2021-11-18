@@ -6,3 +6,7 @@ const VIVAS = ["2,3","2,4","2,5"];
 const GAME = new Game(X,Y,TABLERO, VIVAS);
 
 GAME.crearTablero();
+GAME.buscarCelulas();
+setInterval(()=>{
+
+},500)
